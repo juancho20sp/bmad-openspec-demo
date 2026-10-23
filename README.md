@@ -16,6 +16,12 @@ etiqueta ⊕ de cada opción; el botón Atrás vuelve a la decisión.
 
 > No uses `hyperframes render` con esta presentación: solo renderizaría la primera diapositiva.
 
+## Publicar (GitHub Pages)
+
+Cada push a `main` ejecuta `.github/workflows/pages.yml`, que regenera el sitio (`npm run build:pages`)
+y lo despliega. Requiere, una sola vez, en *Settings → Pages → Source*: **GitHub Actions**.
+`docs/` es una salida generada y no se versiona.
+
 ## Editar el contenido
 
 El `index.html` se **genera**; no lo edites a mano.
