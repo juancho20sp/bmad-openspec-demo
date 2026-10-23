@@ -1,0 +1,13 @@
+{
+  "name": "bmad-openspec-deck",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.186 preview",
+    "check": "npx --yes hyperframes@0.8.186 check",
+    "render": "npx --yes hyperframes@0.8.186 render",
+    "publish": "npx --yes hyperframes@0.8.186 publish",
+    "build:deck": "node src/build.mjs",
+    "present": "npx --yes hyperframes@0.8.186 present ."
+  }
+}
